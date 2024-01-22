@@ -9,11 +9,11 @@ image: logo.jpg
 submission_guidelines: templates/submission_guidelines.html
 leaderboard_description: The main goal of the CARLA Autonomous Driving Challenge 2.0 is to evaluate the driving proficiency of autonomous agents in realistic traffic scenarios. The leaderboard serves as an open platform for the community to perform fair and reproducible evaluations of autonomous vehicle agents, simplifying the comparison between different approaches.
 evaluation_script: evaluation_script.zip
-remote_evaluation: False
-is_docker_based: False
+remote_evaluation: True
+is_docker_based: True
 start_date: 2024-01-01 00:00:00
 end_date: 2024-12-31 23:59:59
-published: False
+published: True
 
 leaderboard:
   - id: 1
